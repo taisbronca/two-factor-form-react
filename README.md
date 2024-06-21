@@ -12,3 +12,5 @@ Creating an OTP form with a good user experience using React with Vite, TypeScri
 
 - Best Practices for Using the WebOTP API
 - Inputs with Numeric Keyboards
+
+###### tags: `front-end` `React` `Typescript` `vite` `Tailwind`

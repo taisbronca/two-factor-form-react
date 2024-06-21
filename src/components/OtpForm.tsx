@@ -56,7 +56,7 @@ export default function OtpForm() {
         const otpArray = text.split('').filter((el) => /^\d*$/.test(el));
 
         if (otpArray.length !== 5) {
-            alert('Erro: código deverá possuir 5 dígitos numéricos');
+            alert('Error: the one-time password (TFA code) you entered was incorrect.');
             return;
         }
         setOtp(otpArray as OtpType);
@@ -64,7 +64,7 @@ export default function OtpForm() {
 
     async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
         event.preventDefault();
-        alert('OTP enviado com sucesso!');
+        alert('Success!');
     }
 
     return (
@@ -92,7 +92,7 @@ export default function OtpForm() {
             <button
                 type="submit"
                 className='block px-12 py-3 bg-blue-400 rounded-2xl text-white font-bold text-xl mx-auto mt-10'>
-                Verificar OTP
+                Verify
             </button>
            
         </form>
