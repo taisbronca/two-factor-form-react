@@ -1,6 +1,7 @@
 # Two-Factor Authentication Form - React
 
 Creating an OTP form with a good user experience using React with Vite, TypeScript, and Tailwind.
+
 Deploy: https://two-factor-form-react.vercel.app/
 
 ## React
